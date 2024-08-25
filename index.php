@@ -30,9 +30,8 @@ echo '<table cellspacing="5" cellpadding="5">
       <tr> 
         <th>ID</th> 
         <th>Date / Time</th> 
-        <th>Suhu</th> 
-        <th>Kekeruhan</th>  
-        <th>pH</th>   
+        <th>Ketinggian Air</th> 
+        <th>Pompa</th>   
       </tr>';
  
 if ($result = $conn->query($sql)) {
